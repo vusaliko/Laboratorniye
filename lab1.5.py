@@ -1,0 +1,10 @@
+while True:
+    print("Напишите 2 числа")
+    a=abs(float(input()))
+    b=abs(float(input()))
+    print("a+b="+str(a+b))
+    print("a*b="+str(a*b))
+    print("a-b="+str(a-b))
+    print("b-a="+str(b-a))
+    print("a/b="+str(a/b))
+    print("b/a="+str(b/a))
