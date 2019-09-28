@@ -1,0 +1,14 @@
+while True:
+    print("Введите порядок матрицы и ее элементы")
+    m=int(input())
+    n=int(input())
+    a=[]
+    for i in range(0,m):
+        a.append([])
+        for y in range(0,n):
+            a[i].append(float(input()))
+    for i in range(0,int(m/2)):
+        for y in range(0,int(n/2)):
+            a[i][y],a[i+int(m/2)][y+int(n/2)]=a[i+int(m/2)][y+int(n/2)],a[i][y]
+    for i in range(0,m):
+        print(str(a[i]))
