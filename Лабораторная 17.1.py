@@ -14,6 +14,8 @@ while True:
             for y in range(0,n):
                 if a[i]==a[y]:
                     s+=1
+                else:
+                    break
             b.append(s)
             c.append(a[i])
             n-=s
